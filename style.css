@@ -6,7 +6,6 @@
 main{ 
     width: 100vw;
     height: 100vh;
-   
 }
 
 .titulo {
@@ -28,4 +27,22 @@ main{
     font-size: 40px;
     margin-top: 15px;
     
+}
+
+.container{
+    display: flex;
+    width: 1500px;
+    gap: 100px;
+}
+
+.container > .colunas{
+    width: 350px;
+    /*height: ;  */
+}
+
+.container > .colunas > .quadrado{
+    width: 328px;
+    height: 270px;
+    text-align: center;
+    border: 1px solid red;
 }
