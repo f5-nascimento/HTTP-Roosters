@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    width: 1500px;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container > .colunas{
+    width: 350px;
+    /*height: ;  */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
