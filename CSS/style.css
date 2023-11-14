@@ -8,10 +8,10 @@
 
 .container > .colunas{
     width: 350px;
-    height: 300px;
+    /*height: ;  */
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
-
+    
 }
