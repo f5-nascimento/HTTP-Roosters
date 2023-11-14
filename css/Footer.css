@@ -11,6 +11,6 @@ justify-content: center;
 align-items: center ;
 }
 
-footer > img {
-    width: 30px;
+#imgfooter {
+    width: 60px;
 }
