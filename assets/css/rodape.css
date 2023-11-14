@@ -1,3 +1,7 @@
+:root{
+    --cor-terciaria: #F3EEEA;
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -7,12 +11,25 @@
 .rodape{
     height: 50vh;
     width: 100vw;
-    background-color: #F3EEEA;
+    background-color: var(--cor-terciaria);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .rodape_texto{
     font-size: 25px;
+    gap: 10px;
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
+}
+
+.rodape_texto__link{
+    text-decoration: none;
+    color: #000000;
+}
+
+.rodape_texto__link:hover{
+    color: #7D7C7C;
 }
