@@ -1,3 +1,82 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  nav {
+    /* background-color:  */
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 40px;
+  }
+  
+  .logo_text {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo_text img {
+    width: 50px; 
+    margin-right: 10px;
+  }
+  
+  .logo_text h1 {
+    color: #d02020; 
+    margin: 0;
+  }
+
+  h2{
+    text-align:flex;
+    margin-left: 20px;
+    margin-top: 60px;
+  }
+
+  pre{
+    box-sizing: border-box;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    background-color: #eee;
+    width: 1300px;
+    height: 60px;
+    position: relative;
+    font-size: 20px;
+    margin-left: 20px;
+   
+    
+  }
+
+  button{
+    position: absolute;
+    right: 0px;
+    background-color: #d02020;
+    width: 5%;
+    height: 50px;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    
+    
+  }
+
+  button img{
+
+    height: 80%;
+    
+
+  }
+
+  h1{
+    font-size: 30px;
+  }
+
+
+
+  
+
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +85,6 @@
 main{ 
     width: 100vw;
     height: 100vh;
-   
 }
 
 .titulo {
@@ -28,4 +106,22 @@ main{
     font-size: 40px;
     margin-top: 15px;
     
+}
+
+.container{
+    display: flex;
+    width: 1500px;
+    gap: 100px;
+}
+
+.container > .colunas{
+    width: 350px;
+    /*height: ;  */
+}
+
+.container > .colunas > .quadrado{
+    width: 328px;
+    height: 270px;
+    text-align: center;
+    border: 1px solid red;
 }
