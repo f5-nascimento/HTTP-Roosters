@@ -13,7 +13,7 @@ main{
     
 }
 
-.conteiner{
+.conteiner-lucas{
     display: flex;
     flex-direction: column;
     width: 100vw;
@@ -22,11 +22,11 @@ main{
     
     
 }
-h1{
+h1.lucas{
     font-size: 30px;
 }
 
-.conteiner > .colunas{
+.conteiner-lucas > .colunas-lucas{
     
     display: flex;
     gap: 50px;
@@ -35,7 +35,7 @@ h1{
     
 }
 
-.conteiner > .colunas > a{
+.conteiner-lucas > .colunas-lucas > a{
    width: 350px;
    height: 303px;
   background-color: aliceblue;
@@ -45,7 +45,7 @@ h1{
    border-radius: 8px;
 }
 
-.conteiner > .colunas > a > .under{
+.conteiner-lucas > .colunas-lucas > a > .under{
     background-color: red;
     color: white;
     text-align: left;
