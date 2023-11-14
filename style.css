@@ -1,0 +1,83 @@
+.main{
+ width: 100vw;
+ height: 100vh;
+ 
+}
+
+#image1 > img{
+position: fixed;
+ width: 50px;
+ height: 50px;
+ border-radius: 50%;
+ border: 3px solid black;
+ animation: ande 20s infinite;
+}
+
+#image2 >img{
+width: 50px;
+height: 50px;
+border-radius: 50%;
+border: 3px solid black;
+position: fixed;
+display: flex;
+top: 90%;
+animation: ande 20s infinite;
+}
+#image3 > img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: fixed;
+    border: 3px solid black;
+    top: 30%;
+    left: 92%;
+    animation: cima 20s infinite;   
+}
+#image4 > img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: fixed;
+    border: 3px solid black;
+    top: 30%;
+    right: 92%;
+    animation: cima 20s infinite;
+}
+
+
+
+@keyframes ande{
+
+    0%{
+        margin-left: 10%;
+    }
+
+    15%{
+        margin-left: 50%;
+    }
+
+    20%{
+        margin-left: 100%;
+    }
+   
+    25%{
+    top: 5%:
+    }
+    
+}
+
+@keyframes cima{
+
+0%{
+    margin-top: -12%;
+}
+25%{
+    margin-top: 50%;
+}
+50%{
+    margin-top: 50%;
+}
+100%{
+    margin-top: -12%;
+}
+}
