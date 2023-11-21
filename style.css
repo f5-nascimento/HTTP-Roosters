@@ -6,78 +6,61 @@
 
 #image1 > img{
 position: fixed;
- width: 50px;
- height: 50px;
- border-radius: 50%;
- border: 3px solid black;
+ width: 70px;
+ height: 70px;
  animation: ande 20s infinite;
 }
-
-#image2 >img{
-width: 50px;
-height: 50px;
-border-radius: 50%;
-border: 3px solid black;
-position: fixed;
-display: flex;
-top: 90%;
-animation: ande 20s infinite;
-}
-#image3 > img{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    position: fixed;
-    border: 3px solid black;
-    top: 30%;
-    left: 92%;
-    animation: cima 20s infinite;   
-}
-#image4 > img{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    position: fixed;
-    border: 3px solid black;
-    top: 30%;
-    right: 92%;
-    animation: cima 20s infinite;
-}
-
-
+    
 
 @keyframes ande{
 
     0%{
-        margin-left: 10%;
+        margin-right: 5%;
     }
 
+    5%{
+        margin-right: 10%;
+    }
+
+    10%{
+        margin-right: 15%;
+    }
     15%{
-        margin-left: 50%;
+        margin-right: 20%;
     }
-
     20%{
-        margin-left: 100%;
+        margin-right: 25%;
+    } 
+    25%{
+       margin-right: 30%;
+    }
+    30%{
+        margin-right: 35%;
+    }
+    35%{
+        margin-right: 40%;
+    }
+   40%{
+    margin-right: 45%;
+}
+   45%{
+       margin-right:50%;
+   }
+   50%{
+       margin-right:55%;
+   }
+   55%{
+       margin-right: 60%;
+
+   }
+   60%{
+       margin-right: 65%;
+   }
+   65%{
+       margin-right: 70%;
+    }
+    100%{
+        margin-left: 75%;
     }
    
-    25%{
-    top: 5%:
-    }
-    
-}
-
-@keyframes cima{
-
-0%{
-    margin-top: -12%;
-}
-25%{
-    margin-top: 50%;
-}
-50%{
-    margin-top: 50%;
-}
-100%{
-    margin-top: -12%;
-}
 }
