@@ -1,17 +1,53 @@
+:root{
+    --cor-terciaria: #F3EEEA;
+    --interativa: #d0383e;
+}
+
 *{
-    margin: 0px;
-    padding: 0px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-footer {
-width: 100vw;
-height: 100px;
-display: flex;
-justify-content: center;
-align-items: center ;
+
+.rodape__imagens{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    padding: 0.5em 8em;
+    width: 50px;
+    border: 2px solid red;
 }
 
-#imgfooter {
-    width: 60px;
+.rodape__imagem:hover{
+    background-color: var(--interativa);
 }
 
+.rodape__imagem{
+    width: 50px;
+    height: 50px;
+}
+
+.rodape{
+    height: 40vh;
+    width: 100vw;
+    background-color: var(--cor-terciaria);
+    /* está em sua disposição a variavel cor-terciaria,
+    caso queira modificar a paleta de cores. */  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    margin: 0;
+}
+
+.rodape_texto{
+    font-size: 18px;
+    gap: 10px;
+}
+
+.rodape_texto__link{
+    text-decoration: none;
+    color: var(--interativa);
+}
