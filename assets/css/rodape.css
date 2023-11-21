@@ -1,5 +1,6 @@
 :root{
     --cor-terciaria: #F3EEEA;
+    --interativa: #d0383e;
 }
 
 *{
@@ -27,9 +28,5 @@
 
 .rodape_texto__link{
     text-decoration: none;
-    color: #000000;
-}
-
-.rodape_texto__link:hover{
-    color: #7D7C7C;
+    color: var(--interativa);
 }
