@@ -1,0 +1,50 @@
+:root{
+    --cor-terciaria: #F3EEEA;
+    --interativa: #d0383e;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.rodape{
+    height: 40vh;
+    width: 100vw;
+    background-color: var(--cor-terciaria);
+    /* está em sua disposição a variavel cor-terciaria,
+    caso queira modificar a paleta de cores. */  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.rodape__imagens{
+    display: flex;
+    justify-content: flex-end;
+    gap: 4em;
+    padding: 0.5em 7em;
+    width: 50px;
+    height: 100px;
+    position: relative;
+}
+
+.rodape__imagem{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+
+
+.rodape_texto{
+    font-size: 18px;
+    gap: 10px;
+}
+
+.rodape_texto__link{
+    text-decoration: none;
+    color: var(--interativa);
+}
