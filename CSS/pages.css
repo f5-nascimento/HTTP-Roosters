@@ -41,10 +41,13 @@ body{
 }
 
 .senai__descricao{
-    border: 2px solid red;
-    padding: 1em;
-    width: 65%;
+    background-color:#F3EEEA;
+    border-radius: 18px;
+    font-size: 18px;
+    padding: 2em;
+    width: 100%;
     text-align: center;
+    font-weight: 400;
 }
 
 .senai__imagem{
