@@ -1,7 +1,11 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+
 :root{
-    --cor-terciaria: #F3EEEA;
-    --interativa: #d0383e;
+    --cor-principal: #F3EEEA;
+    --vermelho: #d0383e;
+    --font-principal: 'Montserrat', sans-serif;
 }
 
 *{
@@ -10,9 +14,44 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: var(--font-principal);
+    font-size: 16px;
+}
 
+.senai{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100vw;
+    text-align: center;
+}
 
+.left{
+    padding: 1em;
+}
 
+.rigth{
+    display: flex;
+    align-items: center;
+}
+
+.senai__titulo{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.senai__descricao{
+    border: 2px solid red;
+    padding: 1em;
+    width: 65%;
+    text-align: center;
+}
+
+.senai__imagem{
+    padding: 1em;
+    width: 50%;
+    height: 12.5rem;
+}
 
 .rodape{
     height: 40vh;
