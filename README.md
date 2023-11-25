@@ -6,7 +6,7 @@ O "HTTP Roosters" é uma Página focada em Desenvolvimento Front End.
 
 ## Objetivo
 
-O principal objetivo deste projeto é criar uma página inicial atraente e funcional usando a ferramenta de trabalho Trello e Live Share. Essa página faz parte de uma atividade feita em sala de aula no SENAI-Caxias/RJ.
+O principal objetivo deste projeto é criar uma página inicial atraente e funcional usando a ferramenta de trabalho Trello e Live Share.
 
 ## Tecnologias Utilizadas
 
